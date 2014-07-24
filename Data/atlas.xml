@@ -1,0 +1,14 @@
+<atlas_settings>
+	<note>
+		TO MODDERS:
+		This file is NOT meant for you to edit, it is used internally in the game engine.
+	</note>
+	<terrain>
+		<size>10</size>
+		<resolution>32</resolution>
+	</terrain>
+	<interface>
+		<width>11</width>
+		<height>11</height>		
+	</interface>
+</atlas_settings>
