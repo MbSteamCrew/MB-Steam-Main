@@ -1,0 +1,5330 @@
+<blocks>
+	<block id="1">
+        <name>Gneiss</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="4">1150</tool>
+		<tool id="274" drop="4">600</tool>
+		<tool id="257" drop="4">400</tool>
+		<tool id="278" drop="4">300</tool>
+		<tool id="285" drop="4">200</tool>
+        
+		<textures>
+			<default>stone_gneiss</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+	<block id="2">
+        <name>Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>grass</top>
+            <bottom>dirt</bottom>
+			<default>grass_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+    
+	<block id="3">
+        <name>Dirt</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">400</tool>
+		<tool id="273" drop="3">200</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">100</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<default>dirt</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="4">
+        <name>Cobblestone</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">10000</tool>
+		<tool id="270" drop="4">1500</tool>
+		<tool id="274" drop="4">750</tool>
+		<tool id="257" drop="4">500</tool>
+		<tool id="278" drop="4">400</tool>
+		<tool id="285" drop="4">250</tool>
+        
+		<textures tx="2" ty="2">
+			<default>tile_cobblestone_1,tile_cobblestone_2,tile_cobblestone_2,tile_cobblestone_1</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="5">
+        <name>Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="5">3000</tool>
+		<tool id="271" drop="5">1500</tool>
+		<tool id="275" drop="5">750</tool>
+		<tool id="258" drop="5">500</tool>
+		<tool id="279" drop="5">400</tool>
+		<tool id="286" drop="5">250</tool>
+        
+		<textures>
+			<default>planks</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+    
+    <block id="6">
+        <name>Sapling</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        	<inflammable>true</inflammable>
+        
+		<tool id="0" drop="6">50</tool>
+        
+		<textures>
+			<default>sapling</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+    
+    <block id="7">
+        <name>Bedrock</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="5">500000000</tool>
+        
+		<textures>
+			<default>bedrock</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+    <block id="8">
+        <name>Water</name>
+        
+		<solid>false</solid>
+		<transparent>true</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>false</removable>
+		<liquid>true</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        	<creative>false</creative>
+        
+		<textures>
+			<default>water</default>
+		</textures>
+	</block>
+    
+    <block id="9">
+        <name>Water</name>
+        
+		<solid>false</solid>
+		<transparent>true</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>false</removable>
+		<liquid>true</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        	<creative>false</creative>
+        
+		<textures>
+			<default>water</default>
+		</textures>
+	</block>
+    
+    <block id="10">
+        <name>Lava</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>false</removable>
+		<liquid>true</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>15</emittance>
+        <creative>false</creative>
+        
+		<textures>
+			<default>lava</default>
+		</textures>
+	</block>
+    
+    <block id="11">
+        <name>Lava</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>false</removable>
+		<liquid>true</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>15</emittance>
+        <creative>false</creative>
+        
+		<textures>
+			<default>lava</default>
+		</textures>
+	</block>
+	
+	<block id="12">
+        <name>Black Sand</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="12">750</tool>
+		<tool id="269" drop="12">400</tool>
+		<tool id="273" drop="12">200</tool>
+		<tool id="256" drop="12">150</tool>
+		<tool id="277" drop="12">100</tool>
+		<tool id="284" drop="12">100</tool>
+        
+		<textures>
+			<default>blacksand</default>
+		</textures>
+        
+        <category>sand</category>
+	</block>
+	
+	<block id="13">
+        <name>Gravel</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="13">900</tool>
+		<tool id="269" drop="13">400</tool>
+		<tool id="273" drop="13">200</tool>
+		<tool id="256" drop="13">150</tool>
+		<tool id="277" drop="13">100</tool>
+		<tool id="284" drop="13">100</tool>
+        
+		<textures>
+			<default>gravel</default>
+		</textures>
+        
+        <category>sand</category>
+	</block>    
+    
+    <block id="14">
+        <name>Gold Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="14">750</tool>
+		<tool id="278" drop="14">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>gold3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="15">
+        <name>Iron Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="15">1150</tool>
+		<tool id="257" drop="15">750</tool>
+		<tool id="278" drop="15">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>iron3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="16">
+        <name>Coal Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="263">2250</tool>
+		<tool id="274" drop="263">1150</tool>
+		<tool id="257" drop="263">750</tool>
+		<tool id="278" drop="263">600</tool>
+		<tool id="285" drop="263">400</tool>
+        
+		<textures>
+			<default>coal3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="17">
+        <name>Oak Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="17">3000</tool>
+		<tool id="271" drop="17">1500</tool>
+		<tool id="275" drop="17">750</tool>
+		<tool id="258" drop="17">500</tool>
+		<tool id="279" drop="17">400</tool>
+		<tool id="286" drop="17">250</tool>
+        
+		<textures>
+			<top>log</top>
+			<bottom>log</bottom>
+			<default>log_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="18">
+        <name>Oak Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        <leaves>true</leaves>
+        
+		<tool id="0" drop="6">200</tool>
+        
+		<textures>
+			<default>leaves</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="20">
+        <name>Glass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">500</tool>
+        
+		<textures>
+			<default>glass</default>
+		</textures>
+        
+        <category>glass</category>
+	</block>
+	
+	<block id="21">
+        <name>Nickel Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="21">1150</tool>
+		<tool id="257" drop="21">750</tool>
+		<tool id="278" drop="21">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>nickel3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="22">
+        <name>Nickel Block</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="22">1150</tool>
+		<tool id="257" drop="22">750</tool>
+		<tool id="278" drop="22">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>nickel</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="24">
+        <name>Sandstone</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">4000</tool>
+		<tool id="270" drop="24">600</tool>
+		<tool id="274" drop="24">300</tool>
+		<tool id="257" drop="24">200</tool>
+		<tool id="278" drop="24">150</tool>
+		<tool id="285" drop="24">100</tool>
+        
+		<textures>
+			<top>sand</top>
+			<bottom>sand</bottom>
+			<default>sandstone</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+    <block id="26">
+        <name>Bed</name>
+        
+        <solid>true</solid>
+        <transparent>false</transparent>
+        <opaque>true</opaque>
+        <visible>true</visible>
+        <special>true</special>
+        <removable>true</removable>
+        <liquid>false</liquid>
+        <valuable>false</valuable>
+        <active>true</active>
+        <emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+        <tool id="0" drop="26">2000</tool>
+        
+        <textures>
+            <default>bed_left</default>
+        </textures>
+        
+        <category>wood</category>
+    </block>
+
+    <block id="94">
+        <name>Dreambed</name>
+        
+        <solid>true</solid>
+        <transparent>false</transparent>
+        <opaque>true</opaque>
+        <visible>true</visible>
+        <special>true</special>
+        <removable>true</removable>
+        <liquid>false</liquid>
+        <valuable>false</valuable>
+        <active>true</active>
+        <emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+        <tool id="0" drop="26">2000</tool>
+        
+        <textures>
+            <default>bed_left</default>
+        </textures>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="29">
+    	<name>Spiky Piston</name>
+    	
+    	<solid>true</solid>
+        <rotatable>omni</rotatable>
+		<special>true</special>
+		<opaque>true</opaque>
+        
+        <tool id="0" drop="29">2000</tool>
+        
+        <conductor></conductor>
+        
+        <textures>
+            <top>spiky_piston_head</top>
+            <bottom>piston_back</bottom>
+            <default>spiky_piston_sides</default>
+        </textures>
+    </block>
+    
+    <block id="33">
+        <name>Piston</name>
+        
+        <solid>true</solid>
+        <rotatable>omni</rotatable>
+		<special>true</special>
+		<opaque>true</opaque>
+        
+        <tool id="0" drop="33">2000</tool>
+        
+        <conductor></conductor>
+        
+        <textures>
+            <top>piston_head</top>
+            <bottom>piston_back</bottom>
+            <default>piston_sides</default>
+        </textures>
+    </block>
+    
+    <block id="40">
+        <name>Cobblestone Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="40">3000</tool>
+        
+		<textures>
+            <default>tile_cobblestone_1</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="41">
+        <name>Gold Block</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="41">750</tool>
+		<tool id="278" drop="41">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>gold2</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="42">
+        <name>Iron Block</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">25000</tool>
+		<tool id="270" drop="0">25000</tool>
+		<tool id="274" drop="0">25000</tool>
+		<tool id="257" drop="42">1250</tool>
+		<tool id="278" drop="42">950</tool>
+		<tool id="285" drop="0">25000</tool>
+        
+		<textures>
+			<default>metal</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+    <block id="43">
+        <name>Wooden Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="43">3000</tool>
+        
+		<textures>
+            <default>planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="44">
+        <name>Stone Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">3000</tool>
+        
+		<textures>
+			<top>slab_top</top>
+            <bottom>slab_top</bottom>
+            <default>slab_sides</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+    
+	<block id="45">
+        <name>Bricks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">10000</tool>
+		<tool id="270" drop="45">3000</tool>
+		<tool id="274" drop="45">3000</tool>
+		<tool id="257" drop="45">3000</tool>
+		<tool id="278" drop="45">3000</tool>
+		<tool id="285" drop="45">3000</tool>
+        
+		<textures>
+			<default>bricks</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+    <block id="46">
+        <name>TNT</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="46">10</tool>
+        
+		<textures>
+            <top>tnt_top</top>
+            <bottom>tnt_bottom</bottom>
+			<default>tnt_sides</default>
+		</textures>
+        
+        <category>sand</category>
+    </block>
+  	
+	<block id="49">
+        <name>Obsidian</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">50000</tool>
+		<tool id="270" drop="0">50000</tool>
+		<tool id="274" drop="0">50000</tool>
+		<tool id="257" drop="0">50000</tool>
+		<tool id="278" drop="49">15000</tool>
+		<tool id="285" drop="0">50000</tool>
+        
+		<textures>
+			<default>obsidian</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="50">
+        <name>Torch</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>15</emittance>
+        
+		<tool id="0" drop="50">0</tool>
+        
+		<textures>
+			<default>torch</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+    
+    <block id="51">
+        <name>cobblestone stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        
+		<tool id="0" drop="0">10000</tool>
+		<tool id="270" drop="51">1500</tool>
+		<tool id="274" drop="51">750</tool>
+		<tool id="257" drop="51">500</tool>
+		<tool id="278" drop="51">400</tool>
+		<tool id="285" drop="51">250</tool>
+        
+		<textures>
+            <default>tile_cobblestone_1</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="52">
+        <name>brick stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        
+		<tool id="0" drop="0">10000</tool>
+		<tool id="270" drop="52">3000</tool>
+		<tool id="274" drop="52">3000</tool>
+		<tool id="257" drop="52">3000</tool>
+		<tool id="278" drop="52">3000</tool>
+		<tool id="285" drop="52">3000</tool>
+        
+		<textures>
+            <default>bricks</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="53">
+        <name>Wooden Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="53">3000</tool>
+		<tool id="271" drop="53">1500</tool>
+		<tool id="275" drop="53">750</tool>
+		<tool id="258" drop="53">500</tool>
+		<tool id="279" drop="53">400</tool>
+		<tool id="286" drop="53">250</tool>
+        
+		<textures>
+            <default>planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="54">
+        <name>Chest</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="54">3750</tool>
+		<tool id="271" drop="54">1900</tool>
+		<tool id="275" drop="54">950</tool>
+		<tool id="258" drop="54">650</tool>
+		<tool id="279" drop="54">500</tool>
+		<tool id="286" drop="54">350</tool>
+        
+		<textures>
+			<top>chest_top</top>
+			<bottom>chest_top</bottom>
+			<front>chest_front</front>
+            <default>chest_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="56">
+        <name>Zinc Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="264">750</tool>
+		<tool id="278" drop="264">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>zinc3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="57">
+        <name>Zinc Block</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">25000</tool>
+		<tool id="270" drop="0">25000</tool>
+		<tool id="274" drop="0">25000</tool>
+		<tool id="257" drop="57">1250</tool>
+		<tool id="278" drop="57">950</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>zinc</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="58">
+        <name>Workbench</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <recipes name="Workbench">workbench</recipes>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="58">3750</tool>
+		<tool id="271" drop="58">1900</tool>
+		<tool id="275" drop="58">950</tool>
+		<tool id="258" drop="58">650</tool>
+		<tool id="279" drop="58">500</tool>
+		<tool id="286" drop="58">350</tool>
+        
+		<textures>
+			<top>workbench_top</top>
+			<bottom>planks</bottom>
+			<front>workbench_sides1</front>
+			<left>workbench_sides2</left>
+			<back>workbench_sides1</back>
+            <right>workbench_sides2</right>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+    
+    <block id="59">
+        <name>wheat</name>
+        
+        <solid>false</solid>
+        <opaque>true</opaque>
+        <special>true</special>
+        
+        <tool id="0" drop="0">100</tool>
+        
+        <textures>
+            <default>wheat4</default>
+		</textures>
+        
+        <category>leaves</category>
+    </block>
+    
+    <block id="60">
+        <name>farmland</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">400</tool>
+		<tool id="273" drop="3">200</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">100</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+            <top>farmland</top>
+			<default>dirt</default>
+		</textures>
+        
+        <category>grass</category>
+    </block>
+	
+	<block id="61">
+        <name>Oven</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <recipes name="Oven">oven</recipes>
+        
+		<tool id="0" drop="0">17500</tool>
+		<tool id="270" drop="61">5250</tool>
+		<tool id="274" drop="61">5250</tool>
+		<tool id="257" drop="61">5250</tool>
+		<tool id="278" drop="61">5250</tool>
+		<tool id="285" drop="61">5250</tool>
+        
+		<textures>
+			<front>oven_front</front>
+			<top>oven_top</top>
+			<bottom>stone3</bottom>
+            <default>oven_back</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+    <block id="63">
+        <name>sign</name>
+        
+        <solid>false</solid>
+        <transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>true</rotatable>
+        
+		<tool id="0" drop="63">2000</tool>
+        
+		<textures>
+            <default>sign</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="64">
+        <name>door</name>
+        
+        <solid>false</solid>
+        <transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="64">2000</tool>
+        
+		<textures>
+            <default>log_sides</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="65">
+        <name>Ladder</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="65">500</tool>
+        
+		<textures>
+			<default>ladder</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="85">
+        <name>Fence</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="85">3000</tool>
+        
+		<textures>
+			<default>planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="86">
+        <name>fence collider</name>
+        
+        <solid>false</solid>
+        <transparent>false</transparent>
+        <opaque>true</opaque>
+        <visible>false</visible>
+        <special>true</special>
+        <removable>false</removable>
+        <liquid>false</liquid>
+        <valuable>false</valuable>
+        <active>false</active>
+        <emittance>0</emittance>
+        <creative>false</creative>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="100">
+        <name>Elevator</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">50000</tool>
+		<tool id="270" drop="0">25000</tool>
+		<tool id="274" drop="100">15000</tool>
+		<tool id="257" drop="100">5000</tool>
+		<tool id="278" drop="100">2500</tool>
+		<tool id="285" drop="100">1000</tool>
+        
+		<textures>
+			<top>gold</top>
+			<left>elevator_pulley_sides</left>
+			<right>elevator_pulley_sides</right>
+            <front>elevator_pulley</front>
+            <back>elevator_pulley</back>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="101">
+        <name>elevator cables</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>false</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <creative>false</creative>
+        
+		<tool id="0" drop="0">5000000</tool>
+        
+		<textures>
+			<front>elevator_cables</front>
+			<back>elevator_cables</back>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="102">
+        <name>elevator cage</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <creative>false</creative>
+        
+		<tool id="0" drop="0">5000000</tool>
+        
+		<textures>
+			<front>elevator_cage_pulley</front>
+            <back>elevator_cage_pulley</back>
+			<left>elevator_cage</left>
+            <right>elevator_cage</right>
+            <bottom>gold</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+    <block id="103">
+        <name>carrot</name>
+        
+        <solid>false</solid>
+        <opaque>true</opaque>
+        <special>true</special>
+        
+        <tool id="0" drop="0">100</tool>
+        
+        <textures>
+            <default>carrot4</default>
+		</textures>
+        
+        <category>leaves</category>
+    </block>
+    
+    <block id="104">
+        <name>Copper Wire</name>
+        
+        <solid>false</solid>
+        <opaque>true</opaque>
+        <special>true</special>
+        
+        <tool id="0" drop="104">300</tool>
+        
+        <conductor>
+            <emittance>2</emittance>
+        </conductor>
+        
+        <textures>
+            <default>wire</default>
+        </textures>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="105">
+        <name>Rail</name>
+        
+        <solid>false</solid>
+        <opaque>true</opaque>
+        <special>true</special>
+        
+        <tool id="0" drop="105">300</tool>
+        
+        <textures>
+            <default>rail</default>
+		</textures>
+
+		<conductor>
+			<solid>false</solid>
+
+			<textures>
+				<default>ladder</default>
+			</textures>
+		</conductor>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="106">
+        <name>Generator</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        
+		<tool id="0" drop="106">3750</tool>
+        
+		<textures>
+			<top>generator_top_off</top>
+			<bottom>machine_top</bottom>
+			<front>generator_front_off</front>
+			<left>generator_sides_off</left>
+			<right>generator_sides_off</right>
+            <back>generator_back_off</back>
+		</textures>
+        
+        <conductor>
+            <emittance>3</emittance>
+            
+            <textures>
+                <top>generator_top_on</top>
+                <bottom>machine_top</bottom>
+                <front>generator_front_on</front>
+                <left>generator_sides_on</left>
+                <right>generator_sides_on</right>
+                <back>generator_back_on</back>
+            </textures>
+        </conductor>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="107">
+        <name>Inverter</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        
+		<tool id="0" drop="107">300</tool>
+        
+		<textures>
+            <top>inverter_floor</top>
+            <default>inverter_bulb</default>
+		</textures>
+        
+        <conductor>
+            <emittance>2</emittance>
+        </conductor>
+        
+        <category>glass</category>
+    </block>
+    
+    <block id="108">
+        <name>Bulb</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="108">300</tool>
+        
+        <conductor>
+            <emittance>15</emittance>
+            
+            <textures>
+                <top>wire_cross</top>
+                <default>bulb_on</default>
+            </textures>
+        </conductor>
+        
+		<textures>
+            <top>wire_cross</top>
+			<default>bulb_off</default>
+		</textures>
+        
+        <category>glass</category>
+    </block>
+    
+    <block id="109">
+        <name>forcefield</name>
+        
+        <solid>false</solid>
+        <transparent>false</transparent>
+        <opaque>true</opaque>
+        <visible>true</visible>
+        <special>true</special>
+        <removable>true</removable>
+        <liquid>false</liquid>
+        <valuable>false</valuable>
+        <active>false</active>
+        <emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+        <tool id="0" drop="109">600</tool>
+        
+        <conductor>
+            <solid>true</solid>
+            <emittance>4</emittance>
+        </conductor>
+        
+        <textures>
+            <default>force_sides</default>
+        </textures>
+
+        <category>glass</category>
+    </block>
+    
+    <block id="110">
+        <name>Copper Ore</name>
+        
+        <solid>true</solid>
+        
+        <tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="110">750</tool>
+		<tool id="278" drop="110">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>copper3</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="111">
+        <name>Magnetic Ore</name>
+        
+        <solid>true</solid>
+        
+        <tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="406">750</tool>
+		<tool id="278" drop="406">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>magnetic3</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="112">
+        <name>potato</name>
+        
+        <solid>false</solid>
+        <opaque>true</opaque>
+        <special>true</special>
+        
+        <tool id="0" drop="0">200</tool>
+        
+        <textures>
+            <default>potato4</default>
+		</textures>
+        
+        <category>leaves</category>
+    </block>
+    
+    <block id="113">
+        <name>corn</name>
+        
+        <solid>false</solid>
+        <opaque>true</opaque>
+        <special>true</special>
+        
+        <tool id="0" drop="0">200</tool>
+        
+        <textures>
+            <default>corn4</default>
+		</textures>
+        
+        <category>leaves</category>
+    </block>
+    
+    <block id="114">
+        <name>Switch</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        
+		<tool id="0" drop="114">3750</tool>
+        
+		<textures>
+			<top>machine_top</top>
+			<bottom>machine_top</bottom>
+			<front>switch_off</front>
+			<default>machine_sides</default>
+		</textures>
+        
+        <conductor>
+            <emittance>3</emittance>
+            
+            <textures>
+                <top>machine_top</top>
+                <bottom>machine_top</bottom>
+                <front>switch_on</front>
+                <default>machine_sides</default>
+            </textures>
+        </conductor>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="115">
+        <name>Button</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        
+		<tool id="0" drop="115">3750</tool>
+        
+		<textures>
+			<top>machine_top</top>
+			<bottom>machine_top</bottom>
+			<front>button_off</front>
+			<default>machine_sides</default>
+		</textures>
+        
+        <conductor>
+            <emittance>3</emittance>
+            
+            <textures>
+                <top>machine_top</top>
+                <bottom>machine_top</bottom>
+                <front>button_on</front>
+                <default>machine_sides</default>
+            </textures>
+        </conductor>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="116">
+        <name>painting</name>
+        
+        <solid>false</solid>
+        <transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="116">2000</tool>
+        
+        <category>wood</category>
+    </block>
+    
+    <block id="117">
+        <name>paint bucket</name>
+        
+        <active>true</active>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="117">1150</tool>
+		<tool id="274" drop="117">600</tool>
+		<tool id="257" drop="117">400</tool>
+		<tool id="278" drop="117">300</tool>
+		<tool id="285" drop="117">200</tool>
+        
+		<textures>
+            <top>paint0</top>
+			<default>metal</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+    
+    <block id="118">
+        <name>Trash Can</name>
+        
+        <active>true</active>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="118">1150</tool>
+		<tool id="274" drop="118">600</tool>
+		<tool id="257" drop="118">400</tool>
+		<tool id="278" drop="118">300</tool>
+		<tool id="285" drop="118">200</tool>
+        
+		<textures>
+            <top>trash_top</top>
+			<default>trash_sides</default>
+            <bottom>metal</bottom>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+    
+    <block id="119">
+        <name>composter</name>
+        
+        <active>true</active>
+        
+		<tool id="0" drop="118">5500</tool>
+		<tool id="270" drop="118">1150</tool>
+		<tool id="274" drop="118">600</tool>
+		<tool id="257" drop="118">400</tool>
+		<tool id="278" drop="118">300</tool>
+		<tool id="285" drop="118">200</tool>
+        
+		<textures>
+            <top>trash_top</top>
+			<default>trash_sides</default>
+            <bottom>trash_top</bottom>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+
+    <block id="149">
+    	<name>spawner</name>
+
+    	<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="4">1150</tool>
+		<tool id="274" drop="4">600</tool>
+		<tool id="257" drop="4">400</tool>
+		<tool id="278" drop="4">300</tool>
+		<tool id="285" drop="4">200</tool>
+        
+		<textures>
+			<default>paint6</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+    
+	<block id="152">
+        <name>Rainforest Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>rf_grass</top>
+            <bottom>dirt</bottom>
+			<default>rf_grass_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="153">
+        <name>Savannah Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>sv_grass</top>
+            <bottom>dirt</bottom>
+			<default>sv_grass_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="154">
+        <name>Acacia Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        <leaves>true</leaves>
+        
+		<tool id="0" drop="6">200</tool>
+        
+		<textures>
+			<default>sv_leaves</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="155">
+        <name>Tropical Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="6">200</tool>
+        
+		<textures>
+			<default>rf_leaves</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="156">
+        <name>Mossy Dirt</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>td_mossy_dirt</top>
+            <bottom>dirt</bottom>
+			<default>td_mossy_dirt_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="157">
+        <name>Mossy Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>td_mossy_grass</top>
+            <bottom>dirt</bottom>
+			<default>td_mossy_grass_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="158">
+        <name>Red Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>td_red_grass</top>
+            <bottom>dirt</bottom>
+			<default>td_red_grass_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="159">
+        <name>Chalk Stone</name>
+        
+		<tool id="0" drop="159">5500</tool>
+		<tool id="270" drop="159">1150</tool>
+		<tool id="274" drop="159">600</tool>
+		<tool id="257" drop="159">400</tool>
+		<tool id="278" drop="159">300</tool>
+		<tool id="285" drop="159">200</tool>
+        
+		<textures>
+			<default>bl_white_stone</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="160">
+        <name>Red Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="160">1150</tool>
+		<tool id="274" drop="160">600</tool>
+		<tool id="257" drop="160">400</tool>
+		<tool id="278" drop="160">300</tool>
+		<tool id="285" drop="160">200</tool>
+        
+		<textures>
+			<default>bl_red_stone</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="161">
+        <name>Cactus</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>omni</rotatable>
+        
+		<tool id="0" drop="161">700</tool>
+		<tool id="271" drop="161">300</tool>
+		<tool id="275" drop="161">250</tool>
+		<tool id="258" drop="161">200</tool>
+		<tool id="286" drop="161">200</tool>
+		<tool id="279" drop="161">100</tool>
+        
+		<textures>
+			<top>de_cactus_cap</top>
+			<default>de_cactus_sides</default>
+		</textures>
+        
+        <category>Cactus</category>
+	</block>
+	
+	<block id="162">
+        <name>Tropical Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="162">3000</tool>
+		<tool id="271" drop="162">1500</tool>
+		<tool id="275" drop="162">750</tool>
+		<tool id="258" drop="162">500</tool>
+		<tool id="279" drop="162">400</tool>
+		<tool id="286" drop="162">250</tool>
+        
+		<textures>
+			<top>rf_wood_cap</top>
+			<bottom>rf_wood_cap</bottom>
+			<default>rf_wood_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="163">
+        <name>Tropical Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>grass_tropical</top>
+            <bottom>dirt</bottom>
+			<default>sl_dead_grass_sides</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="164">
+        <name>Dark Tropical Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>grass_tropical_dark</top>
+            <bottom>dirt</bottom>
+			<default>sl_dead_moss_dead_grass_sides</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="165">
+        <name>Birch Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>log_birch</top>
+            <bottom>log_birch</bottom>
+			<default>log_birch_sides</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="166">
+        <name>Acacia Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="166">3000</tool>
+		<tool id="271" drop="166">1500</tool>
+		<tool id="275" drop="166">750</tool>
+		<tool id="258" drop="166">500</tool>
+		<tool id="279" drop="166">400</tool>
+		<tool id="286" drop="166">250</tool>
+        
+		<textures>
+			<top>sv_wood_cap</top>
+			<bottom>sv_wood_cap</bottom>
+			<default>sv_wood_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="167">
+        <name>Rocky Sand</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="167">750</tool>
+		<tool id="269" drop="167">600</tool>
+		<tool id="273" drop="167">400</tool>
+		<tool id="256" drop="167">250</tool>
+		<tool id="277" drop="167">200</tool>
+		<tool id="284" drop="167">100</tool>
+        
+		<textures>
+			<default>de_rocky_sand</default>
+		</textures>
+        
+        <category>sand</category>
+	</block>
+	
+	<block id="168">
+        <name>Spruce Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="168">3000</tool>
+		<tool id="271" drop="168">1500</tool>
+		<tool id="275" drop="168">750</tool>
+		<tool id="258" drop="168">500</tool>
+		<tool id="279" drop="168">400</tool>
+		<tool id="286" drop="168">250</tool>
+        
+		<textures>
+			<top>tg_wood_cap</top>
+			<bottom>tg_wood_cap</bottom>
+			<default>tg_wood_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="169">
+        <name>Wavy Sand</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="12">750</tool>
+		<tool id="269" drop="12">400</tool>
+		<tool id="273" drop="12">200</tool>
+		<tool id="256" drop="12">150</tool>
+		<tool id="277" drop="12">100</tool>
+		<tool id="284" drop="12">100</tool>
+        
+		<textures>
+			<default>de_flow_sand</default>
+		</textures>
+        
+        <category>sand</category>
+	</block>
+	
+	<block id="170">
+        <name>Chalk Sand</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="170">750</tool>
+		<tool id="269" drop="170">400</tool>
+		<tool id="273" drop="170">200</tool>
+		<tool id="256" drop="170">150</tool>
+		<tool id="277" drop="170">100</tool>
+		<tool id="284" drop="170">100</tool>
+        
+		<textures>
+			<top>bl_white_stone</top>
+			<bottom>bl_white_stone</bottom>
+			<default>bl_chalk_sand</default>
+		</textures>
+        
+        <category>sand</category>
+	</block>
+	
+	<block id="171">
+        <name>Red Cobblestone</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">10000</tool>
+		<tool id="270" drop="171">1500</tool>
+		<tool id="274" drop="171">750</tool>
+		<tool id="257" drop="171">500</tool>
+		<tool id="278" drop="171">400</tool>
+		<tool id="285" drop="171">250</tool>
+        
+		<textures>
+			<default>bl_red_cobblestone</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="172">
+        <name>Spruce Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<leaves>true</leaves>
+        
+		<tool id="0" drop="6">200</tool>
+        
+		<textures>
+			<default>tg_leaves</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="173">
+        <name>Brick Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        
+		<tool id="0" drop="173">10000</tool>
+		<tool id="270" drop="173">3000</tool>
+		<tool id="274" drop="173">3000</tool>
+		<tool id="257" drop="173">3000</tool>
+		<tool id="278" drop="173">3000</tool>
+		<tool id="285" drop="173">3000</tool>
+        
+		<textures>
+            <default>bricks</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="174">
+        <name>Cobblestone</name>
+        
+		<solid>true</solid>
+        
+		<tool id="0" drop="0">10000</tool>
+		<tool id="270" drop="174">1500</tool>
+		<tool id="274" drop="174">750</tool>
+		<tool id="257" drop="174">500</tool>
+		<tool id="278" drop="174">400</tool>
+		<tool id="285" drop="174">250</tool>
+        
+		<textures>
+			<default>tile_cobblestone_2</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="175">
+        <name>Flowerbed</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>flowerbed</top>
+            <bottom>dirt</bottom>
+			<default>flowerbed_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	<block id="176">
+        <name>Wooden Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="176">3000</tool>
+		<tool id="271" drop="176">1500</tool>
+		<tool id="275" drop="176">750</tool>
+		<tool id="258" drop="176">500</tool>
+		<tool id="279" drop="176">400</tool>
+		<tool id="286" drop="176">250</tool>
+        
+		<textures>
+            <default>rf_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="177">
+        <name>Wooden Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="177">3000</tool>
+		<tool id="271" drop="177">1500</tool>
+		<tool id="275" drop="177">750</tool>
+		<tool id="258" drop="177">500</tool>
+		<tool id="279" drop="177">400</tool>
+		<tool id="286" drop="177">250</tool>
+        
+		<textures>
+            <default>sv_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="178">
+        <name>Wooden Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="178">3000</tool>
+		<tool id="271" drop="178">1500</tool>
+		<tool id="275" drop="178">750</tool>
+		<tool id="258" drop="178">500</tool>
+		<tool id="279" drop="178">400</tool>
+		<tool id="286" drop="178">250</tool>
+        
+		<textures>
+            <default>tg_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="179">
+        <name>Wooden Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="179">3000</tool>
+        
+		<textures>
+            <default>rf_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="180">
+        <name>Wooden Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="180">3000</tool>
+        
+		<textures>
+            <default>sv_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="181">
+        <name>Wooden Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="181">3000</tool>
+        
+		<textures>
+            <default>tg_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="182">
+        <name>Fence</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="182">85</tool>
+        
+		<textures>
+			<default>rf_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="183">
+        <name>Fence</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="183">85</tool>
+        
+		<textures>
+			<default>sv_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="184">
+        <name>Fence</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="184">85</tool>
+        
+		<textures>
+			<default>tg_planks</default>
+		</textures>
+        
+        <category>wood</category>
+    </block>
+	
+	<block id="185">
+        <name>Yellow Flower</name>
+        
+		<solid>false</solid>
+		<plant width="0.5">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="185">50</tool>
+        
+		<textures>
+			<default>flower1</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="186">
+        <name>Red Flower</name>
+        
+		<solid>false</solid>
+		<plant width="0.5">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="186">50</tool>
+        
+		<textures>
+			<default>flower2</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="187">
+        <name>Blue Flower</name>
+        
+		<solid>false</solid>
+		<plant width="0.5">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="187">50</tool>
+        
+		<textures>
+			<default>flower3</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="188">
+        <name>Pine Shrub</name>
+        
+		<solid>false</solid>
+		<plant width="1">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="188">50</tool>
+        
+		<textures>
+			<default>td_pine_shrub_top</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="189">
+        <name>Pine Shrub</name>
+        
+		<solid>false</solid>
+		<plant width="1">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="189">50</tool>
+        
+		<textures>
+			<default>td_pine_shrub_bot</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="190">
+        <name>Tropical Shrub</name>
+        
+		<solid>false</solid>
+		<plant width="0.9">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="190">50</tool>
+        
+		<textures>
+			<default>rf_shrub</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="191">
+        <name>Dry Shrub</name>
+        
+		<solid>false</solid>
+		<plant width="0.9">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="191">50</tool>
+        
+		<textures>
+			<default>sl_shrub</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="192">
+        <name>Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="192">3000</tool>
+		<tool id="271" drop="192">1500</tool>
+		<tool id="275" drop="192">750</tool>
+		<tool id="258" drop="192">500</tool>
+		<tool id="279" drop="192">400</tool>
+		<tool id="286" drop="192">250</tool>
+        
+		<textures>
+			<default>rf_planks</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="193">
+        <name>Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="193">3000</tool>
+		<tool id="271" drop="193">1500</tool>
+		<tool id="275" drop="193">750</tool>
+		<tool id="258" drop="193">500</tool>
+		<tool id="279" drop="193">400</tool>
+		<tool id="286" drop="193">250</tool>
+        
+		<textures>
+			<default>sv_planks</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="194">
+        <name>Ironwood Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="194">3000</tool>
+		<tool id="271" drop="194">1500</tool>
+		<tool id="275" drop="194">750</tool>
+		<tool id="258" drop="194">500</tool>
+		<tool id="279" drop="194">400</tool>
+		<tool id="286" drop="194">250</tool>
+        
+		<textures>
+			<default>planks_iron</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="195">
+        <name>Stone Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="195">3000</tool>
+        
+		<textures>
+            <default>stone3</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="196">
+        <name>Stone Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        
+		<tool id="0" drop="196">10000</tool>
+		<tool id="270" drop="196">1500</tool>
+		<tool id="274" drop="196">750</tool>
+		<tool id="257" drop="196">500</tool>
+		<tool id="278" drop="196">400</tool>
+		<tool id="285" drop="196">250</tool>
+        
+		<textures>
+            <default>stone3</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="197">
+        <name>Red Stone Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="197">3000</tool>
+        
+		<textures>
+            <default>bl_red_stone</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="198">
+        <name>Red Stone Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        
+		<tool id="0" drop="198">10000</tool>
+		<tool id="270" drop="198">1500</tool>
+		<tool id="274" drop="198">750</tool>
+		<tool id="257" drop="198">500</tool>
+		<tool id="278" drop="198">400</tool>
+		<tool id="285" drop="198">250</tool>
+        
+		<textures>
+            <default>bl_red_stone</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="199">
+        <name>Red Cobblestone Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="199">3000</tool>
+        
+		<textures>
+            <default>bl_red_cobblestone</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="200">
+        <name>Red Cobbletone Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        
+		<tool id="0" drop="200">10000</tool>
+		<tool id="270" drop="200">1500</tool>
+		<tool id="274" drop="200">750</tool>
+		<tool id="257" drop="200">500</tool>
+		<tool id="278" drop="200">400</tool>
+		<tool id="285" drop="200">250</tool>
+        
+		<textures>
+            <default>bl_red_cobblestone</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="201">
+        <name>Chalk Stone Slab</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="201">3000</tool>
+        
+		<textures>
+            <default>bl_white_stone</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="202">
+        <name>Chalk Stone Stairs</name>
+        
+        <solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>flip</rotatable>
+        
+		<tool id="0" drop="202">10000</tool>
+		<tool id="270" drop="202">1500</tool>
+		<tool id="274" drop="202">750</tool>
+		<tool id="257" drop="202">500</tool>
+		<tool id="278" drop="202">400</tool>
+		<tool id="285" drop="202">250</tool>
+        
+		<textures>
+            <default>bl_white_stone</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="203">
+        <name>Copper Block</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="203">25000</tool>
+		<tool id="270" drop="203">25000</tool>
+		<tool id="274" drop="203">25000</tool>
+		<tool id="257" drop="203">1250</tool>
+		<tool id="278" drop="203">950</tool>
+		<tool id="285" drop="203">25000</tool>
+        
+		<textures>
+			<default>copper_block</default>
+		</textures>
+		
+		<conductor>
+			<emittance>2</emittance>
+		</conductor>
+        
+        <category>stone</category>
+	</block>
+
+	<block id="204">
+        <name>Snowy Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="3">700</tool>
+		<tool id="269" drop="3">450</tool>
+		<tool id="273" drop="3">250</tool>
+		<tool id="256" drop="3">150</tool>
+		<tool id="277" drop="3">150</tool>
+		<tool id="284" drop="3">100</tool>
+        
+		<textures>
+			<top>tg_snow</top>
+            <bottom>dirt</bottom>
+			<default>tg_snow_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+
+	<block id="205">
+        <name>Snowy Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        <leaves>true</leaves>
+        
+		<tool id="0" drop="6">200</tool>
+        
+		<textures>
+			<top>tg_snow</top>
+			<default>tg_snow_leaves_side</default>
+			<bottom>tg_leaves</bottom>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="206">
+        <name>Mossy Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="4">1150</tool>
+		<tool id="274" drop="4">600</tool>
+		<tool id="257" drop="4">400</tool>
+		<tool id="278" drop="4">300</tool>
+		<tool id="285" drop="4">200</tool>
+        
+		<textures>
+			<top>stone3</top>
+			<default>mossy_stone</default>
+			<bottom>stone3</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="207">
+        <name>Full Mossy Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="4">1150</tool>
+		<tool id="274" drop="4">600</tool>
+		<tool id="257" drop="4">400</tool>
+		<tool id="278" drop="4">300</tool>
+		<tool id="285" drop="4">200</tool>
+        
+		<textures>
+			<default>full_mossy_stone</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="208">
+        <name>Snowy Pine Shrub</name>
+        
+		<solid>false</solid>
+		<plant width="1">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="0">50</tool>
+        
+		<textures>
+			<default>snowy_pine_shrub_top</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="209">
+        <name>Snowy Pine Shrub</name>
+        
+		<solid>false</solid>
+		<plant width="1">true</plant>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="0">50</tool>
+        
+		<textures>
+			<default>snowy_pine_shrub_bot</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+
+	<block id="210">
+		<name>Train Dispenser</name>
+
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="210">3750</tool>
+		<tool id="271" drop="210">1900</tool>
+		<tool id="275" drop="210">950</tool>
+		<tool id="258" drop="210">650</tool>
+		<tool id="279" drop="210">500</tool>
+		<tool id="286" drop="210">350</tool>
+        
+		<textures>
+			<top>machine_top</top>
+			<bottom>machine_sides</bottom>
+			<front>transport_gate</front>
+			<default>transport</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="211">
+        <name>Cracked Stone tile</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="211">1150</tool>
+		<tool id="274" drop="211">600</tool>
+		<tool id="257" drop="211">400</tool>
+		<tool id="278" drop="211">300</tool>
+		<tool id="285" drop="211">200</tool>
+        
+		<textures>
+			<top>cracked_tile_1</top>
+			<default>cracked_tile_1</default>
+			<bottom>cracked_tile_1</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="212">
+        <name>Decorative Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="212">1150</tool>
+		<tool id="274" drop="212">600</tool>
+		<tool id="257" drop="212">400</tool>
+		<tool id="278" drop="212">300</tool>
+		<tool id="285" drop="212">200</tool>
+        
+		<textures>
+			<top>cracked_tile_1</top>
+			<default>decorative_stone_1</default>
+			<bottom>cracked_tile_1</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+
+	<block id="213">
+        <name>Lava Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="211">1150</tool>
+		<tool id="274" drop="211">600</tool>
+		<tool id="257" drop="211">400</tool>
+		<tool id="278" drop="211">300</tool>
+		<tool id="285" drop="211">200</tool>
+        
+		<textures>
+			<top>lava_stone</top>
+			<default>lava_stone</default>
+			<bottom>lava_stone</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="214">
+        <name>Mossy Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="214">1150</tool>
+		<tool id="274" drop="214">600</tool>
+		<tool id="257" drop="214">400</tool>
+		<tool id="278" drop="214">300</tool>
+		<tool id="285" drop="214">200</tool>
+        
+		<textures tx="12">
+			<top>green_mossy_stone_top</top>
+			<default>green_mossy_stone_1,green_mossy_stone_2,green_mossy_stone_3,green_mossy_stone_4,green_mossy_stone_5,green_mossy_stone_6,green_mossy_stone_7,green_mossy_stone_8,green_mossy_stone_9,green_mossy_stone_10,green_mossy_stone_11,green_mossy_stone_12</default>
+			<bottom>light_moss_tile</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="218">
+        <name>Stone Tile</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="218">1150</tool>
+		<tool id="274" drop="218">600</tool>
+		<tool id="257" drop="218">400</tool>
+		<tool id="278" drop="218">300</tool>
+		<tool id="285" drop="218">200</tool>
+        
+		<textures>
+			<top>stone_tile_1</top>
+			<default>stone_tile_1</default>
+			<bottom>stone_tile_1</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="219">
+        <name>Slightly Mossy Stone Tile</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="219">1150</tool>
+		<tool id="274" drop="219">600</tool>
+		<tool id="257" drop="219">400</tool>
+		<tool id="278" drop="219">300</tool>
+		<tool id="285" drop="219">200</tool>
+        
+		<textures>
+			<top>light_moss_tile</top>
+			<default>light_moss_tile</default>
+			<bottom>light_moss_tile</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="223">
+        <name>Decorative Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="223">1150</tool>
+		<tool id="274" drop="223">600</tool>
+		<tool id="257" drop="223">400</tool>
+		<tool id="278" drop="223">300</tool>
+		<tool id="285" drop="223">200</tool>
+        
+		<textures>
+			<top>light_moss_tile</top>
+			<default>decorative_stone_2</default>
+			<bottom>light_moss_tile</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="229">
+        <name>Bloody Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="229">1150</tool>
+		<tool id="274" drop="229">600</tool>
+		<tool id="257" drop="229">400</tool>
+		<tool id="278" drop="229">300</tool>
+		<tool id="285" drop="229">200</tool>
+        
+		<textures tx="6">
+			<top>bloody_stone_top</top>
+			<default>bloody_stone_1,bloody_stone_2,bloody_stone_3,bloody_stone_4,bloody_stone_5,bloody_stone_6</default>
+			<bottom>slightly_bloody_top</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="231">
+        <name>Slightly Bloody Stone</name>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="231">1150</tool>
+		<tool id="274" drop="231">600</tool>
+		<tool id="257" drop="231">400</tool>
+		<tool id="278" drop="231">300</tool>
+		<tool id="285" drop="231">200</tool>
+        
+		<textures>
+			<top>slightly_bloody_top</top>
+			<default>slightly_bloody_stone</default>
+			<bottom>slightly_bloody_top</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="236">
+		<name>Iron Bars</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="236">6000</tool>
+        
+		<textures>
+			<default>metal</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	 <block id="19">
+        <name>Dreamworld Bedrock</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="19">500000000</tool>
+        
+		<textures>
+			<default>dw_bedrock</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="23">
+        <name>Dreamworld Chest</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="23">3750</tool>
+		<tool id="271" drop="23">1900</tool>
+		<tool id="275" drop="23">950</tool>
+		<tool id="258" drop="23">650</tool>
+		<tool id="279" drop="23">500</tool>
+		<tool id="286" drop="23">350</tool>
+        
+		<textures>
+			<top>dw_chest_top</top>
+			<bottom>dw_chest_top</bottom>
+			<front>dw_chest_front</front>
+            <default>dw_chest_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="25">
+        <name>Dreamworld Coal Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="263">2250</tool>
+		<tool id="274" drop="263">1150</tool>
+		<tool id="257" drop="263">750</tool>
+		<tool id="278" drop="263">600</tool>
+		<tool id="285" drop="263">400</tool>
+        
+		<textures>
+			<default>dw_coal3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="27">
+        <name>Dreamworld Cobblestone</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">10000</tool>
+		<tool id="270" drop="27">1500</tool>
+		<tool id="274" drop="27">750</tool>
+		<tool id="257" drop="27">500</tool>
+		<tool id="278" drop="27">400</tool>
+		<tool id="285" drop="27">250</tool>
+        
+		<textures>
+			<default>dw_cobblestone</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	 <block id="28">
+        <name>Dreamworld Copper Ore</name>
+        
+        <solid>true</solid>
+        
+        <tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="110">750</tool>
+		<tool id="278" drop="110">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>copper_lime</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="30">
+        <name>Dreamworld Diamond Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="264">750</tool>
+		<tool id="278" drop="264">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_diamond3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+		<block id="31">
+        <name>Dreamworld Dirt</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="31">700</tool>
+		<tool id="269" drop="31">400</tool>
+		<tool id="273" drop="31">200</tool>
+		<tool id="256" drop="31">150</tool>
+		<tool id="277" drop="31">100</tool>
+		<tool id="284" drop="31">100</tool>
+        
+		<textures>
+			<default>dw_dirt</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+	    <block id="32">
+        <name>Ironwood Leaves</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="31">700</tool>
+		<tool id="269" drop="31">400</tool>
+		<tool id="273" drop="31">200</tool>
+		<tool id="256" drop="31">150</tool>
+		<tool id="277" drop="31">100</tool>
+		<tool id="284" drop="31">100</tool>
+        
+		<textures>
+			<default>leaves_iron</default>
+		</textures>
+        
+        <category>grass</category>
+    </block>
+	
+	    <block id="34">
+        <name>Dreamworld Gold Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="34">750</tool>
+		<tool id="278" drop="34">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_gold3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+		<block id="35">
+        <name>Dreamworld Grass</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<grass>true</grass>
+        
+		<tool id="0" drop="31">700</tool>
+		<tool id="269" drop="31">450</tool>
+		<tool id="273" drop="31">250</tool>
+		<tool id="256" drop="31">150</tool>
+		<tool id="277" drop="31">150</tool>
+		<tool id="284" drop="31">100</tool>
+        
+		<textures>
+			<top>dw_grass</top>
+            <bottom>dw_dirt</bottom>
+			<default>dw_grass_side</default>
+		</textures>
+        
+        <category>grass</category>
+	</block>
+	
+		<block id="36">
+        <name>Dreamworld Gravel</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="36">900</tool>
+		<tool id="269" drop="36">400</tool>
+		<tool id="273" drop="36">200</tool>
+		<tool id="256" drop="36">150</tool>
+		<tool id="277" drop="36">100</tool>
+		<tool id="284" drop="36">100</tool>
+        
+		<textures>
+			<default>dw_gravel</default>
+		</textures>
+        
+        <category>sand</category>
+	</block>  
+	
+		<block id="37">
+        <name>Dreamworld Iron Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="37">1150</tool>
+		<tool id="257" drop="37">750</tool>
+		<tool id="278" drop="37">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_iron3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="38">
+        <name>Dreamworld Lapis Ore</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="38">1150</tool>
+		<tool id="257" drop="38">750</tool>
+		<tool id="278" drop="38">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_lapis_ore</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="39">
+        <name>Birch Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="0">200</tool>
+        
+		<textures>
+			<default>leaves_birch</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="47">
+        <name>Dream Oak Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        <leaves>true</leaves>
+        
+		<tool id="0" drop="0">200</tool>
+
+		<textures>
+			<default>leaves_dw</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="55">
+        <name>Ironbark Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        <leaves>true</leaves>
+        
+		<tool id="0" drop="0">200</tool>
+        
+		<textures>
+			<default>leaves_lava</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="62">
+        <name>Old Oak Leaves</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        <leaves>true</leaves>
+        
+		<tool id="0" drop="0">200</tool>
+        
+		<textures>
+			<default>leaves_old</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="66">
+        <name>Dream Birch Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="66">3000</tool>
+		<tool id="271" drop="66">1500</tool>
+		<tool id="275" drop="66">750</tool>
+		<tool id="258" drop="66">500</tool>
+		<tool id="279" drop="66">400</tool>
+		<tool id="286" drop="66">250</tool>
+        
+		<textures>
+			<top>log_dw_birch</top>
+			<bottom>log_dw_birch</bottom>
+			<default>log_dw_birch_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="67">
+        <name>Dream Oak Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="67">3000</tool>
+		<tool id="271" drop="67">1500</tool>
+		<tool id="275" drop="67">750</tool>
+		<tool id="258" drop="67">500</tool>
+		<tool id="279" drop="67">400</tool>
+		<tool id="286" drop="67">250</tool>
+        
+		<textures>
+			<top>log_dw</top>
+			<bottom>log_dw</bottom>
+			<default>log_dw_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="68">
+        <name>Ironbark Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="68">3000</tool>
+		<tool id="271" drop="68">1500</tool>
+		<tool id="275" drop="68">750</tool>
+		<tool id="258" drop="68">500</tool>
+		<tool id="279" drop="68">400</tool>
+		<tool id="286" drop="68">250</tool>
+        
+		<textures>
+			<top>log_lava</top>
+			<bottom>log_lava</bottom>
+			<default>log_lava_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="69">
+        <name>Old Oak Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+		<rotatable>semi</rotatable>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="69">3000</tool>
+		<tool id="271" drop="69">1500</tool>
+		<tool id="275" drop="69">750</tool>
+		<tool id="258" drop="69">500</tool>
+		<tool id="279" drop="69">400</tool>
+		<tool id="286" drop="69">250</tool>
+        
+		<textures>
+			<top>log_old</top>
+			<bottom>log_old</bottom>
+			<default>log_old_sides</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="70">
+        <name>Dream Birch Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="70">3000</tool>
+		<tool id="271" drop="70">1500</tool>
+		<tool id="275" drop="70">750</tool>
+		<tool id="258" drop="70">500</tool>
+		<tool id="279" drop="70">400</tool>
+		<tool id="286" drop="70">250</tool>
+        
+		<textures>
+			<default>planks_dw_birch</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="71">
+        <name>Birch Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="71">3000</tool>
+		<tool id="271" drop="71">1500</tool>
+		<tool id="275" drop="71">750</tool>
+		<tool id="258" drop="71">500</tool>
+		<tool id="279" drop="71">400</tool>
+		<tool id="286" drop="71">250</tool>
+        
+		<textures>
+			<default>planks_birch</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="72">
+        <name>Ebony Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="72">3000</tool>
+		<tool id="271" drop="72">1500</tool>
+		<tool id="275" drop="72">750</tool>
+		<tool id="258" drop="72">500</tool>
+		<tool id="279" drop="72">400</tool>
+		<tool id="286" drop="72">250</tool>
+        
+		<textures>
+			<default>planks_ebony</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="73">
+        <name>Old Oak Planks</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <inflammable>true</inflammable>
+        
+		<tool id="0" drop="73">3000</tool>
+		<tool id="271" drop="73">1500</tool>
+		<tool id="275" drop="73">750</tool>
+		<tool id="258" drop="73">500</tool>
+		<tool id="279" drop="73">400</tool>
+		<tool id="286" drop="73">250</tool>
+        
+		<textures>
+			<default>planks_old</default>
+		</textures>
+        
+        <category>wood</category>
+	</block>
+	
+	<block id="74">
+        <name>Dreamworld Sapling</name>
+        
+		<solid>false</solid>
+		<transparent>false</transparent>
+		<opaque>true</opaque>
+		<visible>true</visible>
+		<special>true</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        	<inflammable>true</inflammable>
+        
+		<tool id="0" drop="74">50</tool>
+        
+		<textures>
+			<default>dw_sapling</default>
+		</textures>
+        
+        <category>leaves</category>
+	</block>
+	
+	<block id="75">
+        <name>Red Limestone</name>
+
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">5500</tool>
+		<tool id="270" drop="27">1150</tool>
+		<tool id="274" drop="27">600</tool>
+		<tool id="257" drop="27">400</tool>
+		<tool id="278" drop="27">300</tool>
+		<tool id="285" drop="27">200</tool>
+        
+		<textures>
+			<default>dw_stone3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="76">
+        <name>Shale</name>
+
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">6050</tool>
+		<tool id="270" drop="4">1265</tool>
+		<tool id="274" drop="4">660</tool>
+		<tool id="257" drop="4">440</tool>
+		<tool id="278" drop="4">330</tool>
+		<tool id="285" drop="4">220</tool>
+        
+		<textures>
+			<default>stone_shale</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="77">
+        <name>Dolomite</name>
+
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">6875</tool>
+		<tool id="270" drop="4">1400</tool>
+		<tool id="274" drop="4">750</tool>
+		<tool id="257" drop="4">500</tool>
+		<tool id="278" drop="4">375</tool>
+		<tool id="285" drop="4">250</tool>
+        
+		<textures>
+			<default>stone3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="78">
+        <name>Granite</name>
+
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">7750</tool>
+		<tool id="270" drop="4">1725</tool>
+		<tool id="274" drop="4">900</tool>
+		<tool id="257" drop="4">600</tool>
+		<tool id="278" drop="4">450</tool>
+		<tool id="285" drop="4">300</tool>
+        
+		<textures>
+			<default>stone_granite</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="79">
+        <name>Limestone</name>
+        
+		<tool id="0" drop="0">6050</tool>
+		<tool id="270" drop="27,174">1265</tool>
+		<tool id="274" drop="27,174">660</tool>
+		<tool id="257" drop="27,174">440</tool>
+		<tool id="278" drop="27,174">330</tool>
+		<tool id="285" drop="27,174">220</tool>
+        
+		<textures>
+			<default>dw_stone1</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="80">
+        <name>Red Limestone</name>
+
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">6875</tool>
+		<tool id="270" drop="27">1400</tool>
+		<tool id="274" drop="27">750</tool>
+		<tool id="257" drop="27">500</tool>
+		<tool id="278" drop="27">375</tool>
+		<tool id="285" drop="27">250</tool>
+        
+		<textures>
+			<default>dw_stone3</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="81">
+        <name>Blue Limestone</name>
+
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">7750</tool>
+		<tool id="270" drop="27">1725</tool>
+		<tool id="274" drop="27">900</tool>
+		<tool id="257" drop="27">600</tool>
+		<tool id="278" drop="27">450</tool>
+		<tool id="285" drop="27">300</tool>
+        
+		<textures>
+			<default>dw_stone4</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="82">
+        <name>Dreamworld Amethyst</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="457">750</tool>
+		<tool id="278" drop="457">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_amethyst</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="83">
+        <name>Dreamworld Emerald</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="458">750</tool>
+		<tool id="278" drop="458">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_emerald</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="84">
+        <name>Dreamworld Onyx</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="465">750</tool>
+		<tool id="278" drop="465">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_onyx</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="87">
+        <name>Dreamworld Opal</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="459">750</tool>
+		<tool id="278" drop="459">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_opal</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="88">
+        <name>Dreamworld Peridot</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="460">750</tool>
+		<tool id="278" drop="460">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_peridot</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="89">
+        <name>Dreamworld Ruby</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="461">750</tool>
+		<tool id="278" drop="461">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_ruby</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="90">
+        <name>Dreamworld Sapphire</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="462">750</tool>
+		<tool id="278" drop="462">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_sapphire</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="91">
+        <name>Dreamworld Tourmaline</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="464">750</tool>
+		<tool id="278" drop="464">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_tourmaline</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="92">
+        <name>Dreamworld Quartz</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="466">750</tool>
+		<tool id="278" drop="466">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_quartz</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="93">
+        <name>Dreamworld Topaz</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="463">750</tool>
+		<tool id="278" drop="463">600</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>dw_topaz</default>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="95">
+        <name>Ebony Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="5">500000000</tool>
+        
+		<textures>
+			<default>log_ebony_sides</default>
+			<top>log_ebony</top>
+			<bottom>log_ebony</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="96">
+        <name>Ironwood Log</name>
+        
+		<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        
+		<tool id="0" drop="5">500000000</tool>
+        
+		<textures>
+			<default>log_iron_sides</default>
+			<top>log_iron</top>
+			<bottom>log_iron</bottom>
+		</textures>
+        
+        <category>stone</category>
+	</block>
+	
+	<block id="97">
+        <name>Nightmare Poison</name>
+        
+		<solid>false</solid>
+		<transparent>true</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>false</removable>
+		<liquid>true</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        	<creative>false</creative>
+        
+		<textures>
+			<default>nm_poison</default>
+		</textures>
+	</block>
+	
+	<block id="98">
+        <name>Dreamworld Dreamcatcher</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="98">3750</tool>
+        
+		<textures>
+			<default>dw_dreamcatcher</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="99">
+        <name>Dreamworld Dreamlens</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>true</active>
+		<emittance>0</emittance>
+        <rotatable>true</rotatable>
+        
+		<tool id="0" drop="99">3750</tool>
+        
+		<textures>
+			<front>dw_dreamlens</front>
+			<back>dw_dreamlens</back>
+
+			<default>dw_dreamcatcher</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="120">
+        <name>Ironbark Planks</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="120">3750</tool>
+        
+		<textures>
+			<default>planks_lava</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="121">
+        <name>Spruce Planks</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="121">3750</tool>
+        
+		<textures>
+			<default>tg_planks</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="122">
+        <name>Yellow Planks</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="122">3750</tool>
+        
+		<textures>
+			<default>planks_yellow</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="123">
+        <name>Green Planks</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="123">3750</tool>
+        
+		<textures>
+			<default>planks_green</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="124">
+        <name>Cyan Planks</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="124">3750</tool>
+        
+		<textures>
+			<default>planks_cyan</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="125">
+        <name>Blue Planks</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="125">3750</tool>
+        
+		<textures>
+			<default>planks_blue</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="126">
+        <name>Dreamworld Oak Planks</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="126">3750</tool>
+        
+		<textures>
+			<default>planks_dw</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="127">
+        <name>Red Steel Block</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="127">3750</tool>
+        
+		<textures>
+			<default>steel_red</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="128">
+        <name>Bronze Block</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="128">3750</tool>
+        
+		<textures>
+			<default>bronze</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="129">
+        <name>Brass Block</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="129">3750</tool>
+        
+		<textures>
+			<default>brass</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="130">
+        <name>Wolfram Block</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="130">3750</tool>
+        
+		<textures>
+			<default>wolfram</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="131">
+        <name>Tin Block</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="131">3750</tool>
+        
+		<textures>
+			<default>tin</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="132">
+        <name>Victorium Block</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="132">3750</tool>
+        
+		<textures>
+			<default>victorium3</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+	
+	<block id="133">
+        <name>Titanicium Block</name>
+        
+        <solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="133">3750</tool>
+        
+		<textures>
+			<default>titanicium</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+
+    <block id="134">
+    	<name>Titanium Ore</name>
+
+    	<solid>true</solid>
+		<transparent>false</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>true</removable>
+		<liquid>false</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>3</emittance>
+        <rotatable>false</rotatable>
+        
+		<tool id="0" drop="0">15000</tool>
+		<tool id="270" drop="0">15000</tool>
+		<tool id="274" drop="0">15000</tool>
+		<tool id="257" drop="467">4500</tool>
+		<tool id="278" drop="467">4300</tool>
+		<tool id="285" drop="0">15000</tool>
+        
+		<textures>
+			<default>titanium_bedrock</default>
+		</textures>
+        
+        <category>stone</category>
+    </block>
+
+    <block id="135">
+        <name>Nightmare Poison</name>
+        
+		<solid>false</solid>
+		<transparent>true</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>false</removable>
+		<liquid>true</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <creative>false</creative>
+        
+		<textures>
+			<default>nm_poison</default>
+		</textures>
+	</block>
+
+	<block id="136">
+        <name>Nightmare Poison</name>
+        
+		<solid>false</solid>
+		<transparent>true</transparent>
+		<opaque>false</opaque>
+		<visible>true</visible>
+		<special>false</special>
+		<removable>false</removable>
+		<liquid>true</liquid>
+		<valuable>false</valuable>
+		<active>false</active>
+		<emittance>0</emittance>
+        <creative>false</creative>
+        
+		<textures>
+			<default>nm_poison</default>
+		</textures>
+	</block>
+
+	<block id="137">
+		<name>Slime block</name>
+
+		<solid>false</solid>
+		<liquid>true</liquid>
+
+		<tool id="0" drop="137">4000</tool>
+
+		<textures>
+			<default>dw_slime_block</default>
+		</textures>
+	</block>
+	
+</blocks>
+
+
